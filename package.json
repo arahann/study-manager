@@ -1,0 +1,19 @@
+{
+  "name": "study-manager",
+  "version": "0.1.0",
+  "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arahann/study-manager.git"
+  },
+  "author": "kbs4x4@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arahann/study-manager/issues"
+  },
+  "homepage": "https://github.com/arahann/study-manager#readme"
+}
