@@ -1,8 +1,12 @@
 {
-    "root": "dist/"
-    , "clean_urls": true
-    , "logging": {
-    "access": false,
-    "error": "warn"
-  }
+    "root": "/",
+    "clean_urls": true,
+    "logging": {
+        "access": false,
+        "error": "warn"
+    },
+    "routes": {
+        "/assets/*": "/assets/",
+        "/**": "index.html"
+    }
 }
