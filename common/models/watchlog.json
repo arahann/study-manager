@@ -1,0 +1,30 @@
+{
+  "name": "watchlog",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "course_id": {
+      "type": "number",
+      "required": true
+    },
+    "lecture_no": {
+      "type": "number",
+      "required": true
+    },
+    "watch_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
