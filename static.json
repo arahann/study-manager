@@ -7,6 +7,6 @@
     },
     "routes": {
         "/assets/*": "/assets/",
-        "/**": "index.html"
+        "/**": "home.html"
     }
 }
