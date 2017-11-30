@@ -11,24 +11,20 @@
       "required": true
     },
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "teacher": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "release_year": {
-      "type": "number",
-      "required": true
+    "year_for": {
+      "type": "number"
     },
-    "lecture_count": {
+    "count": {
       "type": "number",
       "required": true
     },
     "group": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   },
   "validations": [],

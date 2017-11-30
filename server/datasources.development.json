@@ -1,0 +1,6 @@
+{
+  "mongo1": {
+    "url": "mongodb://arahann-study-manager-5720408:27017/test",
+    "connector": "mongodb"
+  }
+}

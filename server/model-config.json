@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongo1"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongo1",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongo1",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongo1",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongo1",
     "public": false
   },
   "Course": {
-    "dataSource": "db",
+    "dataSource": "mongo1",
     "public": true
   },
-  "watchlog": {
-    "dataSource": "db",
+  "WatchLog": {
+    "dataSource": "mongo1",
     "public": true
   }
 }

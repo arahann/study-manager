@@ -1,5 +1,5 @@
 {
-  "name": "watchlog",
+  "name": "WatchLog",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -15,12 +15,10 @@
       "required": true
     },
     "lecture_no": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
-    "watch_date": {
-      "type": "date",
-      "required": true
+    "date": {
+      "type": "date"
     }
   },
   "validations": [],

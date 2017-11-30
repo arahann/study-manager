@@ -1,6 +1,6 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  "mongo1": {
+    "url": "${process.env.MONGODB_URI}",
+    "connector": "mongodb"
   }
 }
