@@ -6,23 +6,21 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "required": true
-    },
-    "course_id": {
-      "type": "number",
-      "required": true
-    },
-    "lecture_no": {
+    "lectureNo": {
       "type": "number"
     },
     "date": {
       "type": "date"
     }
   },
+  "relations": {
+    "course": {
+      "type": "belongsTo",
+      "model": "Course",
+      "foreignKey": "courseId"
+    }
+  },
   "validations": [],
-  "relations": {},
   "acls": [],
   "methods": {}
 }

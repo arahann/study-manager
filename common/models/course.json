@@ -6,17 +6,13 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "required": true
-    },
     "title": {
       "type": "string"
     },
     "teacher": {
       "type": "string"
     },
-    "year_for": {
+    "year": {
       "type": "number"
     },
     "count": {
@@ -27,8 +23,14 @@
       "type": "string"
     }
   },
+  "relations": {
+    "watchLogs": {
+      "type": "hasMany",
+      "model": "WatchLog",
+      "foreignKey": "courseId"
+    }
+  },
   "validations": [],
-  "relations": {},
   "acls": [],
   "methods": {}
 }
